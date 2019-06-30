@@ -6,8 +6,8 @@ all:
 	
 .PHONY: install
 install:
-cp libco.h /usr/include/libco.h
-cp settings.h /usr/lib/settings.h
-cp libco.so /usr/lib/libco.so
-cp libco.a /usr/lib/libco.a
-cp libco.pc /usr/lib/pkconfig/libco.pc
+	cp libco.h /usr/include/libco.h
+	cp settings.h /usr/lib/settings.h
+	cp libco.so /usr/lib/libco.so
+	cp libco.a /usr/lib/libco.a
+	cp libco.pc /usr/lib/pkgconfig/libco.pc
